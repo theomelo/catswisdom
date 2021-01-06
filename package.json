@@ -1,0 +1,17 @@
+{
+  "name": "catswisdom",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node inspect app.js"
+  },
+  "engines": {
+    "node": "15.x"
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.6.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
